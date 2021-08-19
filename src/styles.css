@@ -1,0 +1,74 @@
+body {
+  background-image: url("https://cdn.getforge.com/pencilandfox.getforge.io/1556795060/assets/images/shapesTwo.svg");
+  background-color: #5734ba;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  align-content: center;
+  position: relative;
+  top: 200px;
+}
+h1 {
+  color: white;
+}
+
+h5 {
+  color: #07ba9b;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 70vh;
+}
+label {
+  font-weight: 600;
+}
+.form div {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.form div > * {
+  margin: 5px;
+}
+.form > * {
+  margin: 0.3rem;
+}
+
+button {
+  background-color: #07ba9b;
+  color: white;
+  border: none;
+  padding: 0.3rem;
+  width: 100px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+button:hover {
+  border: 2px solid #07ba9b;
+  background-color: transparent;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 15vh;
+  background-color: #07ba9b;
+}
+
+.footer div {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+  margin: 1rem;
+}
